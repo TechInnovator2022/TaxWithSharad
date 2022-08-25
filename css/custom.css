@@ -1,0 +1,308 @@
+p{
+    color:#333 ;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.banner{
+	height: 400px;
+}
+
+.btn-custom{
+    background-color: #013160;
+    color: white;
+
+}
+.btn-custom:hover{
+    background-color: transparent;
+   border: 1px solid  #013160;
+    color: #212529 ;
+    
+}
+h2.text-blue{
+    color: #013160;
+    font-weight: 500;
+    font-size: 28px;
+}
+h2.text-blue1{
+    color: #013160;
+}
+.my-card{
+    border-radius: 10px !important;
+    background: #7070700d;
+    border: 10px solid white;
+    outline: 1px solid #ccc;
+}
+#header .header-logo {
+   
+    margin: 0;
+ 
+}
+
+#header .header-body {
+ 
+     border-top: 0; 
+  
+}
+.ribbon {
+    /* font-size: 20px !important; */
+    /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+    position: relative;
+    background: #1e6bb4;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+   }
+   .ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1em;
+    border: 1.5em solid #1e6bb4;
+    z-index: -1;
+   }
+   .ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+   }
+   .ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+   }
+   .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #385095 transparent transparent transparent;
+    bottom: -1em;
+   }
+   .ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+   }
+   .ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+   }
+#footer .footer-copyright {
+    background: #012e5a;
+}
+#footer .footer-copyright p{
+    color: white !important;
+}
+footer{
+    background-color: #011c36 !important;
+}
+
+#footer p, #footer span, #footer li, #footer a:not(.btn):not(.no-footer-css){
+    color: white;
+}
+
+#footer p:hover, #footer span:hover, #footer li:hover, #footer a:not(.btn):not(.no-footer-css):hover {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.footer-sec {
+    display: flex;
+    margin-bottom: 15px;
+	justify-content: flex-start;
+}
+
+.footer-sec a {
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+	border-radius: 180px;
+	margin-left: 5px;
+}
+
+.footer-sec a{
+    color: #fff !important;
+    transition: transform .5s ease;
+}
+/*.footer-sec a:hover{
+    transform: scale(1.5);
+}*/
+.footer-sec a.fb {
+    background-color: #385095;
+}
+
+.footer-sec a.tw {
+    background-color: #00a8ff;
+}
+
+.footer-sec a.in {
+    background-image: linear-gradient(to bottom, #fea258, #fe895d, #f97068, #ed5a75, #da4883, #ca428d, #b74096, #a1409d, #9043a2, #7d46a5, #6849a7, #514ba7);
+}
+
+.footer-sec a.lin {
+    background-color: #3d83d8;
+}
+
+.footer-sec a.yo {
+    background-color: #d40c18;
+}
+
+.footer-sec i {
+    font-size: 20px !important;
+}
+/*custom accordian*/
+
+/**
+ * Tabs
+ */
+ .featuretabs .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .featuretabs .tabs label {
+    order: 1;
+    display: block;
+    padding: 10px 15px;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background: #011c36;
+    font-weight: bold;
+    transition: background ease 0.2s;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .featuretabs .tabs label:last-of-type{
+    margin-right: 0;
+  }
+  .featuretabs .tabs .tab {
+    order: 99;
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+
+    background: #f7f7f7 ;
+  }
+  .featuretabs .tabs input[type="radio"] {
+    display: none;
+  }
+  .featuretabs .tabs input[type="radio"]:checked + label {
+    background: #f7f7f7;
+    color: #333;
+    /* border: 1px solid #0000003b; */
+    box-shadow: 3px -3px 2px rgb(1 28 54 / 20%);
+  }
+  .featuretabs .tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+  }
+  .backtotabs{
+    background: #023261;
+    width: fit-content;
+    padding: 5px 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: auto;
+    margin-bottom: -15px;
+  }
+  .backtotabs a{
+    color: white;
+  }
+
+  .why-sir-img-cont{
+    max-width: 300px;
+    background: #f4f4f4;
+    outline: 5px solid #ccc;
+    border-radius: 10px;
+}
+
+
+.sharad-jou-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sharad-jou-ul li {
+    /* padding-left: 30px; */
+    margin-bottom: 8px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffdd;
+    background-color: rgb(255 226 107);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.sharad-jou-ul li span {
+    background-color: rgb(1 49 96);
+    /* border-radius: 15px; */
+    padding: 3px 12px;
+    display: block;
+    margin-left: 32px;
+}
+
+.sharad-jou-ul li::before {
+    content: "\f103";
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    font-family: 'FontAwesome';
+    font-weight: 900;
+    color: #000;
+}
+
+.why-sir-usp{
+    border-left: 5px solid #013160;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+}
+.usp-row .col-lg-6:nth-of-type(2) .why-sir-usp{
+    border-left: 5px solid orange;
+}
+.usp-row .col-lg-6:nth-of-type(3) .why-sir-usp{
+    border-left: 5px solid rgb(247, 2, 22);
+}
+.usp-row .col-lg-6:nth-of-type(3) .why-sir-usp{
+    border-left: 5px solid purple;
+}
+.tax-byte-img{
+    max-height: 170px;
+    overflow: hidden;
+}
+.tax-byte-img img{
+    width: 100%;
+}
+  @media (max-width: 991px) {
+    .featuretabs .tabs .tab {
+       
+        margin-bottom: 10px;
+        
+      }
+    .featuretabs .tabs .tab, .tabs label {
+      order: 1;
+      /* border-top: 5px solid #fff; */
+      outline: 1px solid;
+    }
+    .featuretabs .tabs label {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 0.2rem;
+    }
+    .featuretabs .tabs input[type="radio"]:checked + label {
+     
+        box-shadow: none;
+      }
+  }
