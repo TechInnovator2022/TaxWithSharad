@@ -1,5 +1,89 @@
 p{
     color:#333 ;
+    line-height: 1.4;
+}
+ul.list.list-icons li p{
+    line-height: 1.8;
+}
+.rounded-custom1{
+    border-radius: 5px !important;
+
+}
+.form-switch .form-check-input {
+    width: 3em;
+
+}
+.form-switch .form-check-input {
+   
+    height: 1.5em;
+
+}
+.form-switch .form-check-input:checked {
+    background-color:#013160;
+    border-color: #013160;
+}
+.form-check-input:focus {
+
+    box-shadow: none;
+}
+.text-green{
+    color: green;
+    font-size: 22px;
+
+}
+.carousel-feature{
+    position: relative;
+}
+.carousel-feature::before {
+    content: '';
+    background-image: url(../img/myimg/Image1-svg.svg);
+    background-size: cover;
+    width: 100px;
+    position: absolute;
+    opacity: .75;
+    height: 220px;
+    top: 50%;
+    transform:  translateY(-50%);
+}
+.carousel-feature::after {
+    content: '';
+    background-image: url(../img/myimg/Image1-svg.svg);
+    background-size: cover;
+    width: 100px;
+    position: absolute;
+    height: 220px;
+    top: 50%;
+    opacity: .75;
+    right: 0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) translateY(-50%);
+}
+.differenc-table table p{
+    margin-bottom: 0;
+}
+.differenc-table .table td{
+    border-color: #ddd;
+}
+.differenc-table .table thead tr th:not(:first-of-type), .differenc-table .table tbody tr td:not(:first-of-type){
+    text-align: center;
+}
+.differenc-table .table thead tr th:first-of-type, .differenc-table .table tbody tr td:first-of-type{
+    padding-left: 40px;
+}
+.differenc-table table thead tr{
+    background-color: #012e5a;
+}
+.differenc-table table thead tr p{
+    color: white;
+    text-decoration: none;
+}
+.container .call-to-action.rounded-custom1, .form-control.rounded-custom1, .card.rounded-custom1,.thumb-info .thumb-info-wrapper.rounded-custom1{
+    border-radius: 5px !important;
+
+}
+.rounded-custom2{
+    border-radius: 10px !important;
+    
 }
 a:hover{
     text-decoration: none !important;
@@ -24,7 +108,7 @@ h2.text-blue{
     font-weight: 500;
     font-size: 28px;
 }
-h2.text-blue1{
+.text-blue1{
     color: #013160;
 }
 .my-card{
@@ -33,16 +117,43 @@ h2.text-blue1{
     border: 10px solid white;
     outline: 1px solid #ccc;
 }
+.bg-custom-light-blue{
+    background: #3c7ac554 !important;
+}
+.custom-checkbox-1 label {
+  color: #333;
+}
+html .btn-with-arrow.btn-primary span{
+   box-shadow: none;
+}
+
+html .btn-with-arrow.btn-light span{
+    box-shadow: none;
+   
+}
+html .btn-with-arrow.btn-light span i{
+    color: black;
+}
+html .btn-with-arrow.btn-light:hover{
+    color: #013160 !important;
+}
+html .btn-with-arrow.btn-light.btn-outline:hover span{
+    background-color:#013160 !important ;
+}
+
+html .btn-with-arrow.btn-light.btn-outline:hover span i{
+    color: white;
+}
 #header .header-logo {
    
     margin: 0;
  
 }
 
-#header .header-body {
- 
-     border-top: 0; 
-  
+
+
+.custom-checkbox-1:last-child, .custom-checkbox-1:last-of-type {
+    margin-bottom: 7px;
 }
 .ribbon {
     /* font-size: 20px !important; */
@@ -86,6 +197,21 @@ h2.text-blue1{
    .ribbon .ribbon-content:after {
     right: 0;
     border-width: 1em 1em 0 0;
+   }
+
+   .tax-byte-cards .card{
+    border-radius: 6px !important;
+
+   }
+
+
+   .feature1  {
+    background-image: url(../img/myimg/Maskbg.png);
+    background-size: cover;
+   }
+   .feature3,  .feature4{
+    background-image: url(../img/myimg/pat-bg.jpg);
+    background-size: cover;
    }
 #footer .footer-copyright {
     background: #012e5a;
